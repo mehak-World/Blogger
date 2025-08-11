@@ -17,3 +17,4 @@ export const GET =  async (request, { params }) => {
             return new Response("Internal Server Error", { status: 500 });
         }
 }
+
